@@ -106,6 +106,8 @@ h3 { font-size: 1.15rem; font-weight: 600; color: var(--accent); margin: 2.2rem 
 .obra figcaption p { margin: 0 0 .45rem; }
 .obra-dades, .obra-font { font-family: var(--sans); font-size: .72rem; color: var(--ink-soft); }
 @media (max-width: 560px) { .obra { grid-template-columns: 1fr; } }
+.obra-sense-imatge { grid-template-columns: 1fr; border-left: 3px solid var(--rule); padding-left: 1rem; margin: 1.4rem 0; }
+.annex-avis { font-family: var(--sans); font-size: .8rem; color: var(--ink-soft); }
 
 /* Component: Galeria */
 .galeria { margin: 2rem 0; }
