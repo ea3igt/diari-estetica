@@ -1,0 +1,18 @@
+{% comment %}
+Galeria d'imatges d'una carpeta de la pàgina (p. ex. "apunts" o "img").
+Ús: {% include galeria.html carpeta="apunts" peu="Apunts de la sessió" %}
+Mostra totes les imatges (.jpg, .jpeg, .png, .webp) de la carpeta, ordenades per nom.
+{% endcomment %}
+{% assign dir = page.dir | append: include.carpeta | append: "/" %}
+<figure class="galeria">
+  <div class="galeria-graella">
+  {% for f in site.static_files %}
+    {% if f.path contains dir %}{% assign ext = f.extname | downcase %}
+      {% if ext == ".jpg" or ext == ".jpeg" or ext == ".png" or ext == ".webp" %}
+    <a href="{{ f.path | relative_url }}" data-ampliar><img src="{{ f.path | relative_url }}" alt="{{ f.basename }}" loading="lazy"></a>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+  </div>
+  {% if include.peu %}<figcaption>{{ include.peu }}</figcaption>{% endif %}
+</figure>

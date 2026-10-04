@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<article class="entrada">
+  <header class="entrada-capcalera">
+    <p class="entrada-tema">{% if page.tema %}Tema {{ page.tema }}{% endif %}{% if page.tipus %} · {{ page.tipus }}{% endif %}</p>
+    <h1>{{ page.title }}</h1>
+    {% if page.subtitol %}<p class="entrada-subtitol">{{ page.subtitol }}</p>{% endif %}
+    <p class="entrada-data">{{ page.date | date: "%d/%m/%Y" }}</p>
+  </header>
+  {{ content }}
+  {% if page.us_ia %}<p class="us-ia">{{ page.us_ia }}</p>{% endif %}
+</article>

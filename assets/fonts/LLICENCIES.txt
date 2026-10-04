@@ -1,0 +1,5 @@
+Fonts incloses (totes amb llicència SIL Open Font License 1.1, obtingudes via Fontsource):
+- Source Serif 4 (Adobe)
+- Inter (Rasmus Andersson)
+- Caveat (Impallari Type)
+Text de la llicència: https://openfontlicense.org

@@ -1,0 +1,15 @@
+{% comment %}
+Fitxa d'obra. Paràmetres: img (ruta relativa a la pàgina), autor, titol, any, tecnica, museu, font, text.
+Ús: {% include obra.html img="img/x.jpg" autor="..." titol="..." any="..." tecnica="..." museu="..." font="..." text="..." %}
+{% endcomment %}
+<figure class="obra">
+  <a class="obra-imatge" href="{{ include.img }}" data-ampliar>
+    <img src="{{ include.img }}" alt="{{ include.autor }}, {{ include.titol }} ({{ include.any }})" loading="lazy">
+  </a>
+  <figcaption>
+    <p class="obra-fitxa"><strong>{{ include.autor }}</strong>, <em>{{ include.titol }}</em>, {{ include.any }}.</p>
+    {% if include.tecnica or include.museu %}<p class="obra-dades">{{ include.tecnica }}{% if include.tecnica and include.museu %} · {% endif %}{{ include.museu }}</p>{% endif %}
+    {% if include.text %}<p class="obra-text">{{ include.text }}</p>{% endif %}
+    {% if include.font %}<p class="obra-font">Imatge: {{ include.font }}</p>{% endif %}
+  </figcaption>
+</figure>

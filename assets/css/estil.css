@@ -1,0 +1,186 @@
+/* Full d'estil únic del diari. Tots els components es defineixen aquí.
+   Paleta inspirada en l'informe del Tema 2. */
+/* Fonts allotjades al repositori (llicència SIL OFL 1.1, via Fontsource). Sense dependències externes. */
+@font-face { font-family: "Source Serif 4"; src: url("../fonts/source-serif-4-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Source Serif 4"; src: url("../fonts/source-serif-4-latin-400-italic.woff2") format("woff2"); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: "Source Serif 4"; src: url("../fonts/source-serif-4-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "Inter"; src: url("../fonts/inter-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-display: swap; }
+@font-face { font-family: "Inter"; src: url("../fonts/inter-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+@font-face { font-family: "Caveat"; src: url("../fonts/caveat-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-display: swap; }
+
+:root {
+  --paper: #fbf9f6;
+  --ink: #1f1c1a;
+  --ink-soft: #5b5550;
+  --accent: #8a2b25;      /* bordeus */
+  --accent-soft: #b3574f;
+  --beige: #f3ece3;       /* aplicació */
+  --grey: #eceae6;        /* objecció */
+  --rule: #ddd5ca;
+  --header: #2b3540;      /* capçaleres de taula (Tema 1) */
+  --veu: #fffaf0;
+  --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --sans: "Inter", "Helvetica Neue", Arial, sans-serif;
+  --hand: "Caveat", "Segoe Print", cursive;
+  --mesura: 42rem;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #1b1917; --ink: #ece7e1; --ink-soft: #b3aba3;
+    --accent: #e08a80; --accent-soft: #c9766d;
+    --beige: #2a241f; --grey: #262422; --rule: #3a3530;
+    --header: #3a4654; --veu: #24211c;
+  }
+}
+* { box-sizing: border-box; }
+html { font-size: 17px; }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font-family: var(--serif); line-height: 1.62;
+  -webkit-font-smoothing: antialiased;
+}
+main { max-width: var(--mesura); margin: 0 auto; padding: 0 1rem 4rem; }
+a { color: var(--accent); text-underline-offset: 2px; }
+img { max-width: 100%; height: auto; display: block; }
+
+/* Capçalera i peu del lloc */
+.capcalera-lloc {
+  max-width: var(--mesura); margin: 0 auto; padding: 1.4rem 1rem 0.8rem;
+  display: flex; flex-wrap: wrap; gap: .3rem 1rem; align-items: baseline;
+  border-bottom: 1px solid var(--rule);
+  font-family: var(--sans); font-size: .78rem; letter-spacing: .04em;
+}
+.nom-lloc { color: var(--ink); font-weight: 600; text-decoration: none; text-transform: uppercase; letter-spacing: .12em; }
+.subtitol-lloc { color: var(--ink-soft); }
+.peu-lloc { max-width: var(--mesura); margin: 0 auto; padding: 1.5rem 1rem 3rem; border-top: 1px solid var(--rule); font-family: var(--sans); font-size: .75rem; color: var(--ink-soft); }
+
+/* Títols */
+h1, h2, h3 { font-weight: 400; line-height: 1.2; }
+h1 { font-size: 2.3rem; margin: .2rem 0 .4rem; letter-spacing: -.01em; }
+h2 { font-size: 1.55rem; margin: 3rem 0 .8rem; padding-bottom: .4rem; border-bottom: 1px solid var(--rule); }
+h3 { font-size: 1.15rem; font-weight: 600; color: var(--accent); margin: 2.2rem 0 .5rem; }
+.etiqueta, .entrada-tema {
+  font-family: var(--sans); font-size: .68rem; font-weight: 600;
+  letter-spacing: .16em; text-transform: uppercase; color: var(--accent);
+}
+
+/* Capçalera d'entrada */
+.entrada-capcalera { margin: 2.5rem 0 2rem; }
+.entrada-subtitol { font-style: italic; font-size: 1.15rem; color: var(--ink-soft); margin: 0; }
+.entrada-data { font-family: var(--sans); font-size: .75rem; color: var(--ink-soft); margin-top: .8rem; }
+
+/* Índex automàtic */
+#markdown-toc { font-family: var(--sans); font-size: .82rem; list-style: none; padding: 1rem 1.2rem; margin: 0 0 2rem; border-left: 3px solid var(--accent); background: var(--beige); }
+#markdown-toc::before { content: "Contingut"; display: block; font-size: .68rem; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: var(--accent); margin-bottom: .4rem; }
+#markdown-toc ul { list-style: none; padding-left: 1rem; }
+#markdown-toc a { color: var(--ink); text-decoration: none; }
+#markdown-toc a:hover { color: var(--accent); }
+
+/* Component: En una frase */
+.en-una-frase {
+  border-top: 1px solid var(--accent); border-bottom: 1px solid var(--accent);
+  padding: .55rem 0; margin: .6rem 0 1.2rem; font-style: italic; font-size: 1.05rem;
+}
+.en-una-frase::before {
+  content: "En una frase"; font-style: normal; margin-right: .8rem;
+  font-family: var(--sans); font-size: .64rem; font-weight: 600; letter-spacing: .16em;
+  text-transform: uppercase; color: var(--accent);
+}
+
+/* Components: Aplicació i Objecció */
+.aplicacio, .objeccio { padding: .8rem 1.1rem .9rem; margin: 1.2rem 0; font-size: .95rem; }
+.aplicacio { background: var(--beige); border-left: 3px solid var(--accent); }
+.objeccio { background: var(--grey); border-left: 3px solid var(--ink-soft); }
+.aplicacio::before, .objeccio::before {
+  display: block; margin-bottom: .25rem;
+  font-family: var(--sans); font-size: .64rem; font-weight: 600; letter-spacing: .16em; text-transform: uppercase;
+}
+.aplicacio::before { content: attr(data-label); color: var(--accent); }
+.aplicacio:not([data-label])::before { content: "Aplicació proposada"; }
+.objeccio::before { content: "Objecció"; color: var(--ink-soft); }
+
+/* Component: Fitxa d'obra */
+.obra { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 1.2rem; align-items: center; margin: 2rem 0; }
+.obra-imatge img { box-shadow: 0 1px 2px rgba(0,0,0,.08), 0 6px 18px rgba(0,0,0,.08); cursor: zoom-in; }
+.obra figcaption { font-family: var(--serif); font-size: .92rem; color: var(--ink); margin: 0; }
+.obra figcaption p { margin: 0 0 .45rem; }
+.obra-dades, .obra-font { font-family: var(--sans); font-size: .72rem; color: var(--ink-soft); }
+@media (max-width: 560px) { .obra { grid-template-columns: 1fr; } }
+
+/* Component: Galeria */
+.galeria { margin: 2rem 0; }
+.galeria-graella { display: grid; grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr)); gap: .6rem; }
+.galeria-graella img { width: 100%; aspect-ratio: 1; object-fit: cover; cursor: zoom-in; }
+figcaption { font-family: var(--sans); font-size: .72rem; color: var(--ink-soft); margin-top: .5rem; }
+
+/* Component: Cronologia */
+.cronologia { margin: 2rem 0; font-family: var(--sans); font-size: .78rem; }
+.cronologia-eix { position: relative; height: 1.2rem; margin-left: 38%; border-bottom: 1px solid var(--rule); color: var(--ink-soft); }
+.cronologia-eix span { position: absolute; transform: translateX(-50%); font-size: .68rem; }
+.cronologia-fila summary { display: grid; grid-template-columns: 38% 1fr; align-items: center; padding: .28rem 0; cursor: pointer; list-style: none; }
+.cronologia-fila summary::-webkit-details-marker { display: none; }
+.cronologia-nom { font-weight: 600; padding-right: .6rem; }
+.cronologia-fila summary:hover .cronologia-nom { color: var(--accent); }
+.cronologia-pista { position: relative; height: .7rem; background: repeating-linear-gradient(90deg, transparent 0 calc(25% - 1px), var(--rule) calc(25% - 1px) 25%); }
+.cronologia-barra { position: absolute; top: 0; height: 100%; border-radius: 4px;
+  background: color-mix(in srgb, var(--accent) calc(100% - var(--i) * 8%), var(--header)); }
+.cronologia-detall { margin: .2rem 0 .8rem 38%; padding: .6rem .8rem; background: var(--beige); font-family: var(--serif); font-size: .88rem; }
+.cronologia-detall p { margin: 0 0 .3rem; }
+@media (max-width: 560px) {
+  .cronologia-eix, .cronologia-detall { margin-left: 0; }
+  .cronologia-eix { display: none; }
+  .cronologia-fila summary { grid-template-columns: 1fr; gap: .2rem; }
+}
+
+/* Taules (estil automàtic) */
+table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: .85rem; font-family: var(--serif); }
+th { background: var(--header); color: #fff; font-family: var(--sans); font-size: .7rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; text-align: left; padding: .5rem .6rem; }
+td { padding: .5rem .6rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
+tbody tr:nth-child(even) td { background: color-mix(in srgb, var(--beige) 50%, transparent); }
+.taula-scroll, main > table { display: block; overflow-x: auto; }
+
+/* Components propis del diari: veu pròpia i escrit experimental */
+.veu {
+  background: var(--veu); border: 1px solid var(--rule); border-radius: 2px;
+  padding: 1rem 1.2rem; margin: 1.5rem 0; font-size: 1.02rem;
+  box-shadow: 4px 4px 0 var(--beige);
+}
+.veu::before { content: "Veu pròpia"; display: block; margin-bottom: .3rem; font-family: var(--sans); font-size: .64rem; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: var(--accent); }
+.experimental {
+  font-family: var(--hand); font-weight: 500; font-size: 1.55rem; line-height: 1.35;
+  margin: 2rem auto; max-width: 30rem; text-align: center; color: var(--ink);
+}
+.experimental::before { content: "Escrit experimental"; display: block; margin-bottom: .6rem; font-family: var(--sans); font-size: .64rem; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: var(--accent); }
+
+/* Peu d'ús d'IA */
+.us-ia { margin-top: 3rem; padding-top: .8rem; border-top: 1px dashed var(--rule); font-family: var(--sans); font-size: .74rem; color: var(--ink-soft); }
+.us-ia::before { content: "Ús d'IA en aquesta entrada · "; font-weight: 600; color: var(--ink); }
+
+/* Notes i referències */
+sup a.footnote { font-family: var(--sans); font-size: .7rem; text-decoration: none; padding: 0 .1rem; }
+.footnotes { margin-top: 3rem; font-size: .82rem; border-top: 1px solid var(--rule); }
+.footnotes::before { content: "Referències"; display: block; margin: 1rem 0 .5rem; font-family: var(--sans); font-size: .68rem; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: var(--accent); }
+.footnotes ol { padding-left: 1.2rem; }
+
+/* Llista d'entrades (portada) */
+.llista-entrades { list-style: none; padding: 0; }
+.llista-entrades li { padding: .9rem 0; border-bottom: 1px solid var(--rule); }
+.llista-entrades a { font-size: 1.2rem; text-decoration: none; color: var(--ink); }
+.llista-entrades a:hover { color: var(--accent); }
+.llista-entrades .meta { font-family: var(--sans); font-size: .72rem; color: var(--ink-soft); display: block; }
+
+/* Ampliació d'imatges */
+.ampliacio { position: fixed; inset: 0; z-index: 10; background: rgba(15,13,12,.92); display: grid; place-items: center; padding: 2rem; cursor: zoom-out; }
+.ampliacio img { max-height: 92vh; width: auto; box-shadow: 0 10px 40px rgba(0,0,0,.5); }
+
+/* Impressió / PDF */
+@media print {
+  :root { --paper: #fff; }
+  html { font-size: 11pt; }
+  .capcalera-lloc, .peu-lloc, #markdown-toc { display: none; }
+  main { max-width: none; padding: 0; }
+  h2 { break-after: avoid; }
+  .obra, .aplicacio, .objeccio, .veu, figure, table { break-inside: avoid; }
+  details.cronologia-fila .cronologia-detall { display: none; }
+  a { color: inherit; text-decoration: none; }
+}

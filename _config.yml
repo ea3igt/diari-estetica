@@ -1,0 +1,17 @@
+# Configuració del lloc. GitHub Pages la llegeix automàticament.
+title: "Diari creatiu-reflexiu"
+subtitle: "Estètica i Teoria de l'Art · ERAM 2026-27"
+author: "Cesc"
+lang: ca
+baseurl: "/diari-estetica"
+url: "https://ea3igt.github.io"
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_backlink: "↩"
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

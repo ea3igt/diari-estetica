@@ -1,0 +1,25 @@
+{% comment %}
+Cronologia dibuixada a partir de _data/cronologia.yml. Clicant una fila s'obre el detall.
+Ús: {% include cronologia.html inici=1800 final=2000 %}
+{% endcomment %}
+{% assign a0 = include.inici | default: 1800 %}{% assign a1 = include.final | default: 2000 %}{% assign span = a1 | minus: a0 %}
+<figure class="cronologia">
+  <div class="cronologia-eix">
+    {% for a in (a0..a1) %}{% assign m = a | modulo: 50 %}{% if m == 0 %}{% assign pos = a | minus: a0 | times: 100.0 | divided_by: span %}<span style="left: {{ pos }}%">{{ a }}</span>{% endif %}{% endfor %}
+  </div>
+  {% for m in site.data.cronologia %}
+  {% assign esq = m.inici | minus: a0 | times: 100.0 | divided_by: span %}{% assign ample = m.final | minus: m.inici | times: 100.0 | divided_by: span %}
+  <details class="cronologia-fila" style="--i: {{ forloop.index0 }}">
+    <summary>
+      <span class="cronologia-nom">{{ m.nom }}</span>
+      <span class="cronologia-pista"><span class="cronologia-barra" style="left: {{ esq }}%; width: {{ ample }}%" title="{{ m.inici }}-{{ m.final }}"></span></span>
+    </summary>
+    <div class="cronologia-detall">
+      <p><span class="etiqueta">{{ m.inici }}-{{ m.final }}</span></p>
+      <p><strong>Motor del canvi:</strong> {{ m.motor }}</p>
+      <p><strong>Idea clau:</strong> {{ m.idea }}</p>
+    </div>
+  </details>
+  {% endfor %}
+  <figcaption>Cronologia orientativa. Els moviments conviuen i se solapen. Clica un moviment per veure'n el detall.</figcaption>
+</figure>
