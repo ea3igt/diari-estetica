@@ -1,7 +1,7 @@
-# Títols oficials dels temes, tal com apareixen a les diapositives de la professora.
-# Un tema nou = una línia nova. La portada els mostra a la columna "Tema".
+# Títols oficials dels temes, tal com apareixen a la portada de les diapositives de la professora
+# (Temes/TNN - Nom/2 Professora/). Un tema nou = una entrada nova. La portada els mostra a la columna "Tema".
 - num: 1
-  titol: "Art modern i el ready-made"
+  titol: "Art modern i el ready-made; fonaments de l'estètica moderna (1900-1930)"
 - num: 2
   titol: "L'art com a idea i institució"
 - num: 3
