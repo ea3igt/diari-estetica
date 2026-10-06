@@ -28,14 +28,15 @@ Cada sessió de classe és una entrada del diari. Quan un tema m'ha portat a est
 {% for e in entrades %}
 {% assign anx = annexos | where: "tema", e.tema %}
 <tr>
-<td class="col-tema"><span class="num-tema">{{ e.tema | prepend: "0" | slice: -2, 2 }}</span></td>
+{% assign t = site.data.temes | where: "num", e.tema | first %}
+<td class="col-tema"><span class="num-tema">{{ e.tema | prepend: "0" | slice: -2, 2 }}</span>{% if t %}<span class="titol-tema">{{ t.titol }}</span>{% endif %}</td>
 <td class="col-entrada"><a href="{{ e.url | relative_url }}">{{ e.title }}</a><span class="meta">{{ e.date | date: "%d/%m/%Y" }}</span></td>
 <td class="col-annex">{% if anx.size > 0 %}{% for a in anx %}{% assign parts = a.title | split: " · " %}<span class="etiqueta-annex">{{ parts.first }}</span><a href="{{ a.url | relative_url }}">{{ parts.last }}</a>{% endfor %}{% else %}<span class="sense-annex">—</span>{% endif %}</td>
 </tr>
 {% endfor %}
-{% for a in annexos %}{% capture clau %}|{{ a.tema }}|{% endcapture %}{% unless temes_amb_entrada contains clau %}{% assign parts = a.title | split: " · " %}
+{% for a in annexos %}{% capture clau %}|{{ a.tema }}|{% endcapture %}{% unless temes_amb_entrada contains clau %}{% assign parts = a.title | split: " · " %}{% assign t = site.data.temes | where: "num", a.tema | first %}
 <tr>
-<td class="col-tema"><span class="num-tema">{{ a.tema | prepend: "0" | slice: -2, 2 }}</span></td>
+<td class="col-tema"><span class="num-tema">{{ a.tema | prepend: "0" | slice: -2, 2 }}</span>{% if t %}<span class="titol-tema">{{ t.titol }}</span>{% endif %}</td>
 <td class="col-entrada"><span class="sense-annex">—</span></td>
 <td class="col-annex"><span class="etiqueta-annex">{{ parts.first }}</span><a href="{{ a.url | relative_url }}">{{ parts.last }}</a></td>
 </tr>

@@ -174,14 +174,15 @@ sup a.footnote { font-family: var(--sans); font-size: .7rem; text-decoration: no
 /* Taula de la portada: entrades i annexos per tema */
 .index-temes { margin: 1.5rem 0 2.5rem; }
 .taula-temes { margin: 0; font-size: .95rem; table-layout: fixed; }
-.taula-temes th.col-tema { width: 4.2rem; text-align: center; }
-.taula-temes th:nth-child(3) { width: 38%; }
+.taula-temes th.col-tema { width: 30%; }
+.taula-temes th:nth-child(3) { width: 30%; }
 .taula-temes td { padding: .85rem .8rem; vertical-align: middle; border-bottom: 1px solid var(--rule); }
 .taula-temes tbody tr:nth-child(odd) td { background: transparent; }
 .taula-temes tbody tr:nth-child(even) td { background: color-mix(in srgb, var(--beige) 75%, transparent); }
 .taula-temes tbody tr { transition: background-color .15s; }
 .taula-temes tbody tr:hover td { background: color-mix(in srgb, var(--accent) 7%, transparent); }
-.taula-temes td.col-tema { text-align: center; border-right: 2px solid color-mix(in srgb, var(--accent) 35%, transparent); }
+.taula-temes td.col-tema { border-right: 2px solid color-mix(in srgb, var(--accent) 35%, transparent); }
+.titol-tema { display: block; margin-top: .35rem; font-size: .88rem; line-height: 1.3; color: var(--ink); }
 .num-tema { font-family: var(--serif); font-size: 1.7rem; font-weight: 300; line-height: 1; color: var(--accent); font-variant-numeric: lining-nums; }
 .taula-temes a { text-decoration: none; color: var(--ink); line-height: 1.3; }
 .taula-temes a:hover { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
@@ -193,10 +194,12 @@ sup a.footnote { font-family: var(--sans); font-size: .7rem; text-decoration: no
 @media (max-width: 36rem) {
   .taula-temes, .taula-temes tbody { display: block; }
   .taula-temes thead { display: none; }
-  .taula-temes tbody tr { display: grid; grid-template-columns: 3.2rem 1fr; border-bottom: 1px solid var(--rule); }
+  .taula-temes tbody tr { display: grid; grid-template-columns: 1fr; border-bottom: 1px solid var(--rule); }
   .taula-temes tbody tr:nth-child(even) { background: color-mix(in srgb, var(--beige) 75%, transparent); }
   .taula-temes td, .taula-temes tbody tr:nth-child(even) td { background: transparent; border-bottom: 0; }
-  .taula-temes td.col-tema { grid-row: 1 / span 2; border-right: 2px solid color-mix(in srgb, var(--accent) 35%, transparent); }
+  .taula-temes td.col-tema { border-right: 0; border-left: 2px solid color-mix(in srgb, var(--accent) 35%, transparent); display: flex; align-items: baseline; gap: .7rem; padding-bottom: .2rem; }
+  .taula-temes td.col-tema .titol-tema { margin-top: 0; font-style: italic; }
+  .taula-temes td.col-entrada, .taula-temes td.col-annex { padding-left: 1.1rem; }
   .taula-temes td.col-entrada { padding-bottom: .3rem; }
   .taula-temes td.col-annex { padding-top: .3rem; }
   .taula-temes td.col-annex:has(.sense-annex) { display: none; }

@@ -1,0 +1,8 @@
+# Títols oficials dels temes, tal com apareixen a les diapositives de la professora.
+# Un tema nou = una línia nova. La portada els mostra a la columna "Tema".
+- num: 1
+  titol: "Art modern i el ready-made"
+- num: 2
+  titol: "L'art com a idea i institució"
+- num: 3
+  titol: "El surrealisme i l'inconscient (1920-1940)"
