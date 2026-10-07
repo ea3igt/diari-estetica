@@ -117,4 +117,4 @@ Pel que fa a la IA, sí que la faria servir en el procés de creació. No hi pos
 [^krauss]: Krauss, R. (1982). Photography's discursive spaces: Landscape/view. *Art Journal, 42*(4), 311-319.
 [^phila]: Philadelphia Museum of Art. (2017). *Marcel Duchamp and the Fountain scandal*. [https://www.philamuseum.org/exhibitions/marcel-duchamp-and-the-fountain-scandal](https://www.philamuseum.org/exhibitions/marcel-duchamp-and-the-fountain-scandal)
 
-Altres fonts de la sessió: Benjamin, W. (1936); LeWitt, S. (1967). Paragraphs on conceptual art. *Artforum, 5*(10), 79-83; Montero, V. (2026). *Tema 2. L'art com a idea i institució* [Material de classe]. ERAM, Universitat de Girona. Bibliografia completa a l'[Annex 2]({{ '/annexos/t02-que-es-art/' | relative_url }}).
+Altres fonts de la sessió: Benjamin, W. (1936); LeWitt, S. (1967). Paragraphs on conceptual art. *Artforum, 5*(10), 79-83; Montero, V. (2026). *Tema 2: L'art com a idea i institució* [Material de classe]. ERAM, Universitat de Girona. Bibliografia completa a l'[Annex 2]({{ '/annexos/t02-que-es-art/' | relative_url }}).

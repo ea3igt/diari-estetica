@@ -101,7 +101,7 @@ Gombrich, E. H. (1950). *The story of art*. Phaidon.
 
 Lyotard, J.-F. (1979). *La condition postmoderne*. Les Éditions de Minuit.
 
-Montero, V. (2026). *Tema 1. Art modern i el ready-made* [Material de classe]. Estètica i Teoria de l'Art, ERAM, Universitat de Girona.
+Montero, V. (2026). *Tema 1: Art modern i el ready-made; fonaments de l'estètica moderna (1900-1930)* [Material de classe]. ERAM, Universitat de Girona.
 
 Scharf, A. (1968). *Art and photography*. Allen Lane.
 
