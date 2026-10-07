@@ -1,8 +1,12 @@
 # Títols oficials dels temes, tal com apareixen a la portada de les diapositives de la professora
 # (Temes/TNN - Nom/2 Professora/). Un tema nou = una entrada nova. La portada els mostra a la columna "Tema".
+# moodle: adreça del PDF de la professora al Moodle. El títol hi enllaça. Els PDF no es publiquen mai aquí.
 - num: 1
   titol: "Art modern i el ready-made; fonaments de l'estètica moderna (1900-1930)"
+  moodle: "https://moodle.udg.edu/mod/resource/view.php?id=1949023"
 - num: 2
   titol: "L'art com a idea i institució"
+  moodle: "https://moodle.udg.edu/mod/resource/view.php?id=1953424"
 - num: 3
   titol: "El surrealisme i l'inconscient (1920-1940)"
+  moodle: "https://moodle.udg.edu/mod/resource/view.php?id=1956252"
