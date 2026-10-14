@@ -11,7 +11,7 @@ us_ia: "Informe d'estudi elaborat amb ajuda d'IA a partir d'una pregunta meva so
 * Índex
 {:toc}
 
-Aquest annex reprodueix el meu informe d'estudi del Tema 3 sobre Freud i la imatge (versió 5, 14 d'octubre de 2026). L'entrada del diari en recull el que he triat; aquí hi ha el material complet. Els números entre claudàtors remeten a les referències del final. Les obres amb drets vigents no es reprodueixen: se'n dona la fitxa i, quan n'hi ha, l'enllaç al museu.
+Aquest annex reprodueix el meu informe d'estudi del Tema 3 sobre Freud i la imatge (versió 5.1, 14 d'octubre de 2026). L'entrada del diari en recull el que he triat; aquí hi ha el material complet. Els números entre claudàtors remeten a les referències del final. Les obres amb drets vigents no es reprodueixen: se'n dona la fitxa i, quan n'hi ha, l'enllaç al museu.
 {: .annex-avis}
 
 A la classe del 5 d'octubre, la professora va obrir el tema del surrealisme amb una frase: «Influència de la psicoanàlisi (Sigmund Freud, 1856-1939)» [1]. Aquest informe intenta entendre què vol dir aquesta influència: quines idees de Freud van fer servir els artistes, com les van transformar en imatges i per què la fotografia va tenir un paper especial en aquesta història. Acaba amb dos casos contemporanis i amb propostes per a la pràctica fotogràfica.
@@ -72,7 +72,7 @@ Entre totes dues capes hi ha el **treball del somni**, un procés inconscient qu
 | Figurabilitat (o consideració de la representabilitat) | Els pensaments abstractes es tradueixen en imatges concretes | La idea «estic en un carreró sense sortida» es converteix en un carrer tancat |
 | Elaboració secundària | Forma part de la construcció del somni: omple els buits i dona al conjunt una aparença de relat coherent | Elements inconnexos del somni s'ordenen com si formessin una història |
 
-Freud comparava el somni amb un **rebus**, una endevinalla feta d'imatges: les imatges no s'han de llegir pel que mostren, sinó com a signes d'un altre text [5]. Aquesta comparació és la que farà més fortuna entre els artistes.
+Freud comparava el somni amb un **rebus**, una endevinalla feta de dibuixos on cada imatge representa una síl·laba o una paraula: un pi i un pa dibuixats junts no volen dir «un pi i un pa», sinó «pipa». Amb el somni passa el mateix. Les imatges del contingut manifest, sovint absurdes, no s'han d'interpretar pel que mostren, sinó com els caràcters d'un missatge amagat, els pensaments latents, que l'anàlisi ha de desxifrar [5]. Aquesta comparació és la que farà més fortuna entre els artistes.
 
 ### Idea 2. L'associació lliure
 
