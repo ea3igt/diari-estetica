@@ -557,7 +557,7 @@ Sistema de citació: les entrades segueixen el format APA 7; al text es fan serv
 
 **38.** MIT Press Bookstore. (s. d.). *Invention of hysteria: Charcot and the photographic iconography of the Salpêtrière* [Descripció del llibre de G. Didi-Huberman, trad. A. Hartz, 2003]. [https://mitpressbookstore.mit.edu/book/9780262541800](https://mitpressbookstore.mit.edu/book/9780262541800)
 
-**39.** The Metropolitan Museum of Art. (s. d.). *Man Ray \| Lee Miller* [Perspectives]. [https://www.metmuseum.org/en/perspectives/man-ray-lee-miller](https://www.metmuseum.org/en/perspectives/man-ray-lee-miller)
+**39.** The Metropolitan Museum of Art. (s. d.). *Man Ray &#124; Lee Miller* [Perspectives]. [https://www.metmuseum.org/en/perspectives/man-ray-lee-miller](https://www.metmuseum.org/en/perspectives/man-ray-lee-miller)
 
 **40.** Krauss, R., i Livingston, J. (1985). *L'Amour fou: Photography and surrealism*. Corcoran Gallery of Art; Abbeville Press. (No consultat directament)
 
