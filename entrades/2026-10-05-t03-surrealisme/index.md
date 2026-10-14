@@ -5,7 +5,7 @@ subtitol: "El surrealisme, l'inconscient i Remedios Varo, la pintora d'Anglès q
 date: 2026-10-05
 tema: 3
 tipus: classe
-us_ia: "Entrada muntada amb Claude (Cowork) a partir dels meus apunts de classe i del meu informe d'estudi del Tema 3, que vaig fer amb ajuda d'IA per respondre una pregunta meva. La tria del que es treballa és meva. Detall a la metodologia."
+us_ia: "Entrada muntada amb Claude (Cowork) a partir dels meus apunts de classe i dels meus dos informes d'estudi del Tema 3 (Remedios Varo i Freud i la imatge), fets amb ajuda d'IA per respondre preguntes meves. La tria del que es treballa és meva. Detall a la metodologia."
 ---
 
 * Índex
@@ -34,6 +34,8 @@ Al marge dels apunts hi vaig escriure «d'Anglès!» al costat de Remedios Varo,
 2. **Una pregunta:** per què en molts mitjans se la presenta com a pintora mexicana, si va néixer a Anglès i va viure a Madrid, Barcelona i París? No se l'hauria de conèixer com a artista gironina o catalana?
 
 En va sortir un informe d'estudi, que és a l'[Annex 3]({{ '/annexos/t03-remedios-varo/' | relative_url }}).
+
+La diapositiva amb què la professora va obrir el tema, «Influència de la psicoanàlisi (Sigmund Freud, 1856-1939)», em va portar a un segon fil: **Freud i la imatge**. Quines idees de Freud van fer servir els artistes, com les van convertir en imatges i per què la fotografia hi té un paper especial. Aquest segon informe és a l'[Annex 4]({{ '/annexos/t03-freud-imatge/' | relative_url }}).
 
 ## 3. Aprofundiment
 
@@ -102,4 +104,4 @@ Les noies que broden el món i la que hi amaga la seva fugida dins el brodat só
 [^mam]: Museo de Arte Moderno. (s. d.). *Acervo*. INBAL. [https://mam.inba.gob.mx/coleccion.html](https://mam.inba.gob.mx/coleccion.html)
 [^montero]: Montero, V. (2026). *Tema 3: El surrealisme i l'inconscient (1920-1940)* [Material de classe]. ERAM, Universitat de Girona.
 
-Bibliografia completa a l'[Annex 3]({{ '/annexos/t03-remedios-varo/' | relative_url }}).
+Bibliografia completa a l'[Annex 3]({{ '/annexos/t03-remedios-varo/' | relative_url }}) i a l'[Annex 4]({{ '/annexos/t03-freud-imatge/' | relative_url }}).
