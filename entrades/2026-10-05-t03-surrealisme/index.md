@@ -37,7 +37,7 @@ En va sortir un informe d'estudi, que és a l'[Annex 3]({{ '/annexos/t03-remedio
 
 La diapositiva amb què la professora va obrir el tema, «Influència de la psicoanàlisi (Sigmund Freud, 1856-1939)», em va portar a un segon fil: **Freud i la imatge**. Quines idees de Freud van fer servir els artistes, com les van convertir en imatges i per què la fotografia hi té un paper especial. Aquest segon informe és a l'[Annex 4]({{ '/annexos/t03-freud-imatge/' | relative_url }}).
 
-Un tercer fil em va portar a la fotografia de moda actual: **Tim Walker**, un fotògraf que construeix davant la càmera escenes de conte i que treballa amb una herència surrealista que li arriba per Edward James, Cecil Beaton i Cocteau. L'informe és a l'[Annex 5]({{ '/annexos/t03-tim-walker/' | relative_url }}).
+El tercer fil va sorgir per coincidència. A l'exposició sobre *Alícia al país de les meravelles* del CaixaForum hi havia fotografies de moda de **Tim Walker**, un fotògraf que construeix davant la càmera escenes de conte i que treballa amb una herència surrealista que li arriba per Edward James, Cecil Beaton i Cocteau. L'informe és a l'[Annex 5]({{ '/annexos/t03-tim-walker/' | relative_url }}).
 
 ## 3. Aprofundiment
 
