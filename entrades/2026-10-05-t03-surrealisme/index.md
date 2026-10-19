@@ -87,7 +87,20 @@ A classe, la professora el va posar al costat de *L'expulsió dels mercaders* de
 Les noies que broden el món i la que hi amaga la seva fugida dins el brodat són un bon referent per a un projecte fotogràfic en una escola de costura: el fil i l'agulla com a eina d'obediència i, alhora, d'escapada.
 {: .aplicacio data-label="Aplicació fotogràfica proposada"}
 
-<!-- Seccions 5, 6 i 7 (veu pròpia): pendents de Cesc. Si no n'hi ha, no es publiquen. -->
+## 5. Reflexió personal
+
+Per a mi, Remedios Varo és catalana per accident i espanyola per la família. Entenc, però, que en alguns escrits se la consideri una artista mexicana, perquè va desenvolupar la major part de la seva carrera a Mèxic.
+{: .veu}
+
+De les idees de Freud, la que sento més a prop és potser el somni. Tot i així, encara no tinc prou experiència en el món artístic de la fotografia per identificar-me clarament amb cap dels aspectes que assenyala.
+{: .veu}
+
+Entre l'automatisme de Breton i l'escena construïda de Walker, crec que soc una barreja. M'agrada arribar a les sessions de fotografia d'autor amb una bona preparació i un guió clar, però un cop allà em deixo portar. Ara segurament tinc més de Breton, tot i que és probable que en algun moment adopti una manera de treballar més propera a la de Walker.
+{: .veu}
+
+Quant a la pregunta que em vaig apuntar a classe, entenc que aquest alliberament de l'art respecte de la raó es produeix bàsicament al voltant de la Primera Guerra Mundial. L'impacte en la societat va ser tan gran que va provocar mirades i recorreguts diferents en l'art.
+{: .veu}
+
 
 ## 8. Fils oberts
 
