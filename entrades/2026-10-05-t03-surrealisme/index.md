@@ -118,6 +118,6 @@ Quant a la pregunta que em vaig apuntar a classe, entenc que aquest alliberament
 [^aic]: Art Institute of Chicago. (2023, 5 de juliol). *Remedios Varo: Science Fictions* [Nota de premsa]. [https://www.artic.edu/press/press-releases/330/remedios-varo-science-fictions](https://www.artic.edu/press/press-releases/330/remedios-varo-science-fictions)
 [^mam]: Museo de Arte Moderno. (s. d.). *Acervo*. INBAL. [https://mam.inba.gob.mx/coleccion.html](https://mam.inba.gob.mx/coleccion.html)
 [^montero]: Montero, V. (2026). *Tema 3: El surrealisme i l'inconscient (1920-1940)* [Material de classe]. ERAM, Universitat de Girona.
-[^alicia]: Exibart.es. (2024, 24 d'octubre). *CaixaForum Barcelona se sumerge en los mundos de Alicia*. https://www.exibart.es/exposiciones/caixaforum-barcelona-se-sumerge-en-los-mundos-de-alicia/
+[^alicia]: Exibart.es. (2024, 24 d'octubre). *CaixaForum Barcelona se sumerge en los mundos de Alicia*. [https://www.exibart.es/exposiciones/caixaforum-barcelona-se-sumerge-en-los-mundos-de-alicia/](https://www.exibart.es/exposiciones/caixaforum-barcelona-se-sumerge-en-los-mundos-de-alicia/)
 
 Bibliografia completa a l'[Annex 3]({{ '/annexos/t03-remedios-varo/' | relative_url }}), a l'[Annex 4]({{ '/annexos/t03-freud-imatge/' | relative_url }}) i a l'[Annex 5]({{ '/annexos/t03-tim-walker/' | relative_url }}).
