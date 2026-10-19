@@ -37,7 +37,7 @@ En va sortir un informe d'estudi, que és a l'[Annex 3]({{ '/annexos/t03-remedio
 
 La diapositiva amb què la professora va obrir el tema, «Influència de la psicoanàlisi (Sigmund Freud, 1856-1939)», em va portar a un segon fil: **Freud i la imatge**. Quines idees de Freud van fer servir els artistes, com les van convertir en imatges i per què la fotografia hi té un paper especial. Aquest segon informe és a l'[Annex 4]({{ '/annexos/t03-freud-imatge/' | relative_url }}).
 
-El tercer fil va sorgir per coincidència. A l'exposició *Los mundos de Alicia. Soñar el país de las maravillas* (CaixaForum Barcelona, 2024-2025) hi havia fotografies de moda de **Tim Walker**, un fotògraf que construeix davant la càmera escenes de conte i que treballa amb una herència surrealista que li arriba per Edward James, Cecil Beaton i Cocteau.[^alicia] L'informe és a l'[Annex 5]({{ '/annexos/t03-tim-walker/' | relative_url }}).
+El tercer fil va sorgir per coincidència. A l'exposició *Els mons d'Alícia. Somiar el país de les meravelles* (CaixaForum Barcelona, del 18 d'octubre de 2024 al 16 de febrer de 2025), creada pel Victoria and Albert Museum i produïda per la Fundació «la Caixa», hi havia les fotografies de moda que **Tim Walker** va fer per al calendari Pirelli 2018, dedicat a Alícia.[^alicia] Walker construeix davant la càmera escenes de conte i treballa amb una herència surrealista que li arriba per Edward James, Cecil Beaton i Cocteau. L'informe és a l'[Annex 5]({{ '/annexos/t03-tim-walker/' | relative_url }}).
 
 ## 3. Aprofundiment
 
@@ -118,6 +118,6 @@ Quant a la pregunta que em vaig apuntar a classe, entenc que aquest alliberament
 [^aic]: Art Institute of Chicago. (2023, 5 de juliol). *Remedios Varo: Science Fictions* [Nota de premsa]. [https://www.artic.edu/press/press-releases/330/remedios-varo-science-fictions](https://www.artic.edu/press/press-releases/330/remedios-varo-science-fictions)
 [^mam]: Museo de Arte Moderno. (s. d.). *Acervo*. INBAL. [https://mam.inba.gob.mx/coleccion.html](https://mam.inba.gob.mx/coleccion.html)
 [^montero]: Montero, V. (2026). *Tema 3: El surrealisme i l'inconscient (1920-1940)* [Material de classe]. ERAM, Universitat de Girona.
-[^alicia]: Exibart.es. (2024, 24 d'octubre). *CaixaForum Barcelona se sumerge en los mundos de Alicia*. [https://www.exibart.es/exposiciones/caixaforum-barcelona-se-sumerge-en-los-mundos-de-alicia/](https://www.exibart.es/exposiciones/caixaforum-barcelona-se-sumerge-en-los-mundos-de-alicia/)
+[^alicia]: Fundació «la Caixa». (2024). *Els mons d'Alícia. Somiar el país de les meravelles* [Exposició, CaixaForum Barcelona, 18 d'octubre de 2024 a 16 de febrer de 2025]. [https://caixaforum.org/ca/barcelona/p/els-mons-d-alicia-barcelona](https://caixaforum.org/ca/barcelona/p/els-mons-d-alicia-barcelona)
 
 Bibliografia completa a l'[Annex 3]({{ '/annexos/t03-remedios-varo/' | relative_url }}), a l'[Annex 4]({{ '/annexos/t03-freud-imatge/' | relative_url }}) i a l'[Annex 5]({{ '/annexos/t03-tim-walker/' | relative_url }}).
