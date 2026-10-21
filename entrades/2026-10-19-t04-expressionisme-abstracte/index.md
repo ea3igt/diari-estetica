@@ -30,7 +30,7 @@ Als apunts vaig marcar amb una estrella Mark Rothko i Barnett Newman. La present
 
 La pregunta que em vaig fer és què pot voler dir «transcendent» davant d'una pintura que no representa cap escena religiosa ni cap paisatge. Per respondre-la he seguit dos fils que no van néixer junts: el del **sublim**, de Burke i Kant fins a Newman, i el del **sentiment oceànic**, de Romain Rolland i Freud.
 
-<!-- Annex: s'enllaçarà quan Cesc declari definitiva una versió de l'informe (ara v2.2). -->
+En va sortir un informe d'estudi, que és a l'[Annex 6]({{ '/annexos/t04-sublim-oceanic/' | relative_url }}).
 
 ## 3. Aprofundiment
 
@@ -129,3 +129,5 @@ L'exercici de classe «Rastres del moviment» demana mostrar l'empremta del gest
 [^chapel]: Rothko Chapel. (s. d.). *About*. [https://rothkochapel.org/learn/about/](https://rothkochapel.org/learn/about/)
 [^smb]: Staatliche Museen zu Berlin. (s. d.). *Mönch am Meer* (NG 9/85). [https://search.smb.museum/en/object/obj-965511?involved=David&objectType=Bild](https://search.smb.museum/en/object/obj-965511?involved=David&objectType=Bild)
 [^pace]: Pace Gallery. (2012). *Rothko / Sugimoto: Dark paintings and seascapes* [Exposició, Londres, 4 d'octubre a 17 de novembre de 2012]. [https://www.pacegallery.com/exhibitions/rothko-sugimoto/](https://www.pacegallery.com/exhibitions/rothko-sugimoto/)
+
+Bibliografia completa a l'[Annex 6]({{ '/annexos/t04-sublim-oceanic/' | relative_url }}).
