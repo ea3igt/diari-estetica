@@ -76,7 +76,30 @@ La fórmula «la forma segueix la funció» no és de Mies, sinó de Louis Sulli
 
 ## 2. Què he triat treballar
 
-*Pendent. Encara no he triat quin fil aprofundeixo.*
+Als apunts vaig anotar que el que més va subratllar la professora era l'**espai i la percepció**: la relació entre l'espectador i l'obra, tenint en compte l'espai on passa. Quan ho escrivia pensava en la fotografia. Si una escultura de Morris canvia segons on és i des d'on la mirem, què passa amb una fotografia, que sembla plana i tancada en ella mateixa?
+
+He seguit dos camins. El principal és **l'espai on es mostra la fotografia**: la mida, l'alçada, la seqüència, el marc i la sala. El segon és **com es fotografia una obra o un cos que depenen del lloc**, que m'interessa per al meu projecte amb una ballarina, *On la tela encara vola*.
+
+En va sortir un informe d'estudi, que és a l'[Annex 7]({{ '/annexos/t05-obra-lloc/' | relative_url }}).
+
+## 3. Aprofundiment
+
+### Una fotografia té dos espais
+
+Una fotografia té dos espais: el que mostra i el que ocupa. El minimalisme ens obliga a mirar el segon.
+{: .en-una-frase}
+
+A la segona part de «Notes on Sculpture» (1966), Morris diu que la millor obra nova treu les relacions de dins de l'obra i les converteix en una funció de l'espai, de la llum i del camp visual de l'espectador.[^battcock] Un any després, Michael Fried li va respondre a «Art and Objecthood» (1967): si l'obra és «un objecte en una situació» que inclou l'espectador, aleshores és **teatral**, perquè necessita un públic com una escena.[^fried] D'aquesta discussió en surt una pregunta útil per a un fotògraf: la meva imatge es dirigeix a qui la mira, o fa com si no hi fos?
+
+### El cub blanc i la paret
+
+Brian O'Doherty va mostrar que la sala blanca de galeria no és neutra: és el que fa que allò que hi penja es llegeixi com a art.[^odoherty] A l'informe recullo quatre maneres de penjar fotografia que ho fan visible: el camp de visió ampliat de Herbert Bayer (1930), el relat de *The Family of Man* (1955), les tipologies dels Becher i la paret composta de Wolfgang Tillmans, amb còpies sense marc a alçades i mides molt diferents.
+
+La conclusió pràctica és que les tres formes en L de Morris tenen un equivalent fotogràfic. Una mateixa fotografia no és la mateixa segons la mida, l'alçada, la distància amb les altres, el marc, la llum i el lloc.
+
+### Fotografiar el que depèn del lloc
+
+Els *Nonsites* de Robert Smithson (1968) assumeixen que la fotografia no és el lloc, sinó un indici que hi remet. El Pavelló de Barcelona, desmuntat el 1930 i reconstruït el 1986, és un cas proper per provar-ho fotografiant. I la dansa dels anys seixanta, amb Yvonne Rainer, i les fotografies de Babette Mangolte i Francesca Woodman donen pistes per a *On la tela encara vola*: decidir si la ballarina balla per a la càmera o com si no hi fos, i si l'espai és un fons o una part de l'obra.
 
 ## 4. Associacions
 
@@ -90,7 +113,7 @@ Obres de la classe. Totes tenen drets vigents: se'n dona la fitxa i l'enllaç a 
 
 {% include obra.html autor="Bruce Nauman" titol="The True Artist Helps the World by Revealing Mystic Truths (Window or Wall Sign)" any="1967" tecnica="Neó" museu="Philadelphia Museum of Art" text="Una espiral de neó amb la frase «El veritable artista ajuda el món revelant veritats místiques», en el llenguatge dels rètols comercials. No queda clar si és sincera o irònica, i aquesta ambigüitat és part de l'obra." enllac="https://philamuseum.org/collection/object/31965" %}
 
-<!-- Seccions 3 (aprofundiment), 5 (reflexió personal), 6 (gest visual) i 7 (escrit experimental): pendents. Les 5 a 7 les escriu Cesc. -->
+<!-- Seccions 5 (reflexió personal), 6 (gest visual) i 7 (escrit experimental): pendents. Les escriu Cesc. -->
 
 ## 8. Fils oberts
 
@@ -105,3 +128,6 @@ Obres de la classe. Totes tenen drets vigents: se'n dona la fitxa i l'enllaç a 
 [^montero]: Montero, V. (2026). *Tema 5: Minimalisme i reducció conceptual (1950-1970)* [Material de classe]. ERAM, Universitat de Girona.
 [^tate]: Tate. (2009). *Robert Morris: Bodyspacemotionthings* [Exposició]. [https://www.tate.org.uk/whats-on/tate-modern/exhibition/robert-morris-bodyspacemotionthings](https://www.tate.org.uk/whats-on/tate-modern/exhibition/robert-morris-bodyspacemotionthings)
 [^sullivan]: Sullivan, L. H. (1896, març). The tall office building artistically considered. *Lippincott's Monthly Magazine*. Dades contrastades a [smow Journal (2014)](https://www.smow.com/blog/2014/03/smow-blog-design-calendar-march-1st-1896-%E2%80%93-louis-h-sullivan-defines-form-follows-function/).
+[^battcock]: Morris, R. (1968). Notes on sculpture. A G. Battcock (Ed.), *Minimal art: A critical anthology* (p. 222 i seg.). E. P. Dutton. (Publicat originalment a *Artforum*, febrer i octubre de 1966). Paràfrasi a partir de Houston, K. (2013). Leo Steinberg and Robert Morris's «Notes on sculpture». *Notes in the History of Art*, *33*(1), 38-42.
+[^fried]: Fried, M. (1967). Art and objecthood. *Artforum*, *5*(10), 12-23. Citat a partir de Gough, T. (2016). [Theatricality and sincerity](https://www.pismowidok.org/en/archive/2016/15-theatricality/theatricality-and-sincerity). *View. Theories and Practices of Visual Culture*, (15).
+[^odoherty]: O'Doherty, B. (1999). *Inside the white cube: The ideology of the gallery space* (ed. ampliada). University of California Press. (Obra original publicada el 1976).
