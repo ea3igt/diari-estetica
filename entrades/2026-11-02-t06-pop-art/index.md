@@ -5,7 +5,7 @@ subtitol: "El Pop Art i la cultura del consum: l'art que es mira en el mirall de
 date: 2026-11-02
 tema: 6
 tipus: classe
-us_ia: "Entrada muntada amb Claude (Cowork) a partir dels meus apunts i de la presentació de la classe: transcripció dels apunts, estructura i verificació de les fitxes d'obra a les webs dels museus. Les seccions 2 i 3 resumeixen l'informe de l'Annex 8, fet amb recerca assistida per IA. La tria del que es treballa és meva. Detall a la metodologia."
+us_ia: "Entrada muntada amb Claude (Cowork) a partir dels meus apunts i de la presentació de la classe: transcripció dels apunts, estructura i verificació de les fitxes d'obra a les webs dels museus. Les seccions 2 i 3 resumeixen l'informe de l'Annex 8, fet amb recerca assistida per IA. La imatge de l'exercici «Pop remix» l'hem generada en grup amb una eina d'IA. La tria del que es treballa és meva. Detall a la metodologia."
 ---
 
 * Índex
@@ -108,6 +108,10 @@ Als apunts vaig escriure que Warhol «va treballar com a fotògraf de moda i de 
 - **Fragments i collage digital:** per parelles, convertir una fotografia pròpia en un collage repetit d'estil pop.
 - **«Pop remix: icones d'ara i d'abans»:** en grup, triar una icona actual (música, mem, *influencer*, marca, objecte viral) i reinterpretar-la amb estratègies de Warhol, Lichtenstein o The Velvet Underground, afegint-hi un debat del moment (TikTok, IA, sostenibilitat, *fake news*).
 
+{% include galeria.html carpeta="img/exercici" peu="Pop remix: icones d’ara i d’abans. Exercici de grup de la classe d’Estètica i Teoria de l’Art (ERAM, 2 de novembre de 2026). És una reinterpretació crítica, a la manera del Pop Art, de la portada de l’àlbum Lux de Rosalía (Columbia Records, 2025). La portada original i la imatge de l’artista són dels seus titulars. Es reprodueix aquí només amb finalitat educativa i de comentari, sense cap ús comercial." %}
+
+Portada de referència: Rosalía, *Lux* (2025).[^lux]
+
 ## 2. Què he triat treballar
 
 Als apunts vaig escriure que Warhol «va treballar com a fotògraf de moda i de retrat» i ho vaig marcar en vermell per explorar. Volia saber què hi havia de cert en aquesta frase, i què en pot treure algú que, com jo, fotografia moda i retrat a Qstura. Pel camí em vaig trobar amb les seves fotografies cosides, i hi he dedicat una part pròpia.
@@ -173,3 +177,4 @@ Obres de la classe. Quan l'autor té drets vigents se'n dona la fitxa i l'enlla�
 [^ngs]: National Galleries of Scotland. (s. d.). *Andy Warhol. Trash Cans, 1976-1986*. [https://www.nationalgalleries.org/art-and-artists/93143](https://www.nationalgalleries.org/art-and-artists/93143)
 [^shainman]: Jack Shainman Gallery. (2020). *Andy Warhol: Photography 1967-1987* [Exposició]. [https://jackshainman.com/exhibitions/andy_warhol_photography_1967_1987](https://jackshainman.com/exhibitions/andy_warhol_photography_1967_1987)
 [^reina]: Museo Nacional Centro de Arte Reina Sofía. (s. d.). *Andy Warhol. Garbage* (AD07191). [https://museoreinasofia.es/en/collections/artwork/garbage](https://museoreinasofia.es/en/collections/artwork/garbage)
+[^lux]: Rosalía. (2025). *Lux* [Àlbum]. Columbia Records.
