@@ -101,7 +101,7 @@ La presentació hi dedica una diapositiva: el consentiment de l'artista, el del 
 
 ### Música i cos performatiu
 
-**Laurie Anderson** (1947) combina veu, tecnologia i gest com a part inseparable de la seva obra. Vam veure el vídeo d'*O Superman* (1981), que es basa en l'ària «Ô Souverain, ô juge, ô père» de *Le Cid* de Massenet i va arribar al número 2 de les llistes britàniques.[^osuperman] Als apunts el vaig marcar amb un signe d'exclamació.
+**Laurie Anderson** (1947) combina veu, tecnologia i gest com a part inseparable de la seva obra. Vam veure el vídeo d'*O Superman* (1981), que es basa en l'ària «Ô Souverain, ô juge, ô père» de *Le Cid* de Massenet i va arribar al número 2 de les llistes britàniques.[^osuperman] Als apunts el vaig marcar amb un signe d'exclamació, perquè em va fer pensar en la música generativa en què treballo per a *On la tela encara vola*.
 
 **Punk i postpunk: el cos com a gest radical.** Aquí el cos no és tecnològic, sinó agressiu, polític, dissident, i l'energia corporal redefineix el concert com un espai performatiu. Exemples de la classe: Sex Pistols, *Anarchy in the U.K.* (1976), i Siouxsie and the Banshees, *Spellbound* (1981). En el cas de Siouxsie, el cos és una icona (maquillatge, rigidesa, mirada penetrant) i la veu, tallant, autoritària i hipnòtica, és ella mateixa una performance. Molta d'aquesta estètica té a veure amb el cos i amb la roba.
 
@@ -157,6 +157,7 @@ Obres de la classe. Totes tenen drets vigents: se'n dona la fitxa i, quan n'hi h
 ## 8. Fils oberts
 
 - ***Cut Piece* i *On la tela encara vola*:** treballat a l'[Annex 9]({{ '/annexos/t07-cut-piece-tela/' | relative_url }}). El projecte és en curs i les decisions de l'acció s'aniran prenent.
+- ***O Superman* i la música generativa:** quina connexió hi ha entre la peça de Laurie Anderson i la música generativa del meu projecte.
 - **El consentiment:** qui és responsable del que passa en una performance? I en una sessió de fotografia amb una persona?
 - **La documentació:** de *Shoot* només queden vuit segons de filmació i unes fotos. Què és l'obra, l'acció o el que en queda? Aquí la fotografia té un paper central.
 - **Art = experiència:** si l'obra només existeix mentre passa, què veu qui no hi era?
