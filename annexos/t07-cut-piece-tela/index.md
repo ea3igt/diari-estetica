@@ -136,7 +136,7 @@ Referències amb dades bibliogràfiques d'estil APA i numeració interna per fac
 
 **5.** Museo Nacional Centro de Arte Reina Sofía. (s. d.). *Proposal: Poll of MoMA visitors*. [https://guernica.museoreinasofia.es/en/node/16081](https://guernica.museoreinasofia.es/en/node/16081)
 
-**6.** Queensland Art Gallery | Gallery of Modern Art. (s. d.). *Kusama's Obliteration room*. [https://collection.qagoma.qld.gov.au/node/48886](https://collection.qagoma.qld.gov.au/node/48886)
+**6.** Queensland Art Gallery \| Gallery of Modern Art. (s. d.). *Kusama's Obliteration room*. [https://collection.qagoma.qld.gov.au/node/48886](https://collection.qagoma.qld.gov.au/node/48886)
 
 **7.** *"Untitled" (Portrait of Ross in L.A.)*. (s. d.). A *Wikipedia*. [https://en.wikipedia.org/wiki/%22Untitled%22_(Portrait_of_Ross_in_L.A.)](https://en.wikipedia.org/wiki/%22Untitled%22_(Portrait_of_Ross_in_L.A.)) (consulta d'orientació)
 
